@@ -1,0 +1,167 @@
+@import "./media.scss";
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .rubrik {
+    margin-bottom: 15px;
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      @include small {
+        font-size: 2rem;
+        margin-bottom: 15px;
+      }
+    }
+
+    &-block {
+      background-color: lightgray;
+      margin: 15px 0;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 7px;
+      cursor: pointer;
+
+      @include small {
+        width: 500px;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        @include small {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .modele1 {
+      background-color: red;
+      margin: 15px 0;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 7px;
+      cursor: pointer;
+
+      @include small {
+        width: 500px;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        color: white;
+        @include small {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .modele2 {
+      background-color: red;
+      margin: 15px 0;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 7px;
+      cursor: pointer;
+
+      @include small {
+        width: 500px;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        color: white;
+        @include small {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .option1 {
+      background-color: red;
+      margin: 15px 0;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 7px;
+      cursor: pointer;
+
+      @include small {
+        width: 500px;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        color: white;
+        @include small {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .option2 {
+      background-color: red;
+      margin: 15px 0;
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+      border: 1px solid black;
+      border-radius: 7px;
+      cursor: pointer;
+
+      @include small {
+        width: 500px;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        color: white;
+        @include small {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .result {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    @include small {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    &-display {
+      background-color: lightgrey;
+      padding: 20px;
+      font-size: 1.3rem;
+      text-align: center;
+      width: 150px;
+      border: 1px solid black;
+      border-radius: 7px;
+    }
+
+    &-buy {
+      background-color: lightgray;
+      padding: 20px;
+      font-size: 1.3rem;
+      text-align: center;
+      width: 150px;
+      border: 1px solid black;
+      border-radius: 7px;
+      cursor: pointer;
+    }
+  }
+}
